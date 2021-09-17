@@ -1,0 +1,288 @@
+<set size="20">
+  <tiles>
+    <tile name="t" symmetry="T"/>
+    <tile name="cross" symmetry="X"/>
+    <tile name="line" symmetry="I"/>
+    <tile name="corner" symmetry="L"/>    
+    <tile name="x" symmetry="X"/>
+    <tile name="v" symmetry="T"/>
+    <tile name="skew" symmetry="L"/>
+    <tile name="empty" symmetry="X"/>
+  </tiles>
+  <neighbors>
+    <neighbor left="t 0" right="t 0"/>
+    <neighbor left="t 0" right="t 2"/>
+    <neighbor left="t 0" right="t 3"/>
+    <neighbor left="t 0" right="cross"/>
+    <neighbor left="t 0" right="line 0"/>
+    <neighbor left="t 0" right="corner 1"/>
+    <neighbor left="t 0" right="corner 2"/>
+    <neighbor left="t 0" right="x"/>
+    <neighbor left="t 0" right="v 0"/>
+    <neighbor left="t 0" right="v 2"/>
+    <neighbor left="t 0" right="v 3"/>
+    <neighbor left="t 0" right="skew 1"/>
+    <neighbor left="t 0" right="skew 2"/>
+    <neighbor left="t 1" right="t 0"/>
+    <neighbor left="t 1" right="t 2"/>
+    <neighbor left="t 1" right="t 3"/>
+    <neighbor left="t 1" right="cross"/>
+    <neighbor left="t 1" right="line 0"/>
+    <neighbor left="t 1" right="corner 1"/>
+    <neighbor left="t 1" right="corner 2"/>
+    <neighbor left="t 1" right="x"/>
+    <neighbor left="t 1" right="v 0"/>
+    <neighbor left="t 1" right="v 2"/>
+    <neighbor left="t 1" right="v 3"/>
+    <neighbor left="t 1" right="skew 1"/>
+    <neighbor left="t 1" right="skew 2"/>
+    <neighbor left="t 2" right="t 0"/>
+    <neighbor left="t 2" right="t 2"/>
+    <neighbor left="t 2" right="t 3"/>
+    <neighbor left="t 2" right="cross"/>
+    <neighbor left="t 2" right="line 0"/>
+    <neighbor left="t 2" right="corner 1"/>
+    <neighbor left="t 2" right="corner 2"/>
+    <neighbor left="t 2" right="x"/>
+    <neighbor left="t 2" right="v 0"/>
+    <neighbor left="t 2" right="v 2"/>
+    <neighbor left="t 2" right="v 3"/>
+    <neighbor left="t 2" right="skew 1"/>
+    <neighbor left="t 2" right="skew 2"/>
+    <neighbor left="t 3" right="t 1"/>
+    <neighbor left="t 3" right="line 1"/>
+    <neighbor left="t 3" right="corner 0"/>
+    <neighbor left="t 3" right="corner 3"/>
+    <neighbor left="t 3" right="v 1"/>
+    <neighbor left="t 3" right="skew 0"/>
+    <neighbor left="t 3" right="skew 3"/>
+    <neighbor left="t 3" right="empty"/>
+    <neighbor left="cross" right="t 0"/>
+    <neighbor left="cross" right="t 2"/>
+    <neighbor left="cross" right="t 3"/>
+    <neighbor left="cross" right="cross"/>
+    <neighbor left="cross" right="line 0"/>
+    <neighbor left="cross" right="corner 1"/>
+    <neighbor left="cross" right="corner 2"/>
+    <neighbor left="cross" right="x"/>
+    <neighbor left="cross" right="v 0"/>
+    <neighbor left="cross" right="v 2"/>
+    <neighbor left="cross" right="v 3"/>
+    <neighbor left="cross" right="skew 1"/>
+    <neighbor left="cross" right="skew 2"/>
+    <neighbor left="line 0" right="t 0"/>
+    <neighbor left="line 0" right="t 2"/>
+    <neighbor left="line 0" right="t 3"/>
+    <neighbor left="line 0" right="cross"/>
+    <!--<neighbor left="line 0" right="line 0"/>-->
+    <neighbor left="line 0" right="x"/>
+    <neighbor left="line 0" right="v 0"/>
+    <neighbor left="line 0" right="v 2"/>
+    <neighbor left="line 0" right="v 3"/>
+    <neighbor left="line 1" right="t 1"/>
+    <neighbor left="line 1" right="line 1"/>
+    <neighbor left="line 1" right="corner 0"/>
+    <neighbor left="line 1" right="corner 3"/>
+    <neighbor left="line 1" right="v 1"/>
+    <neighbor left="line 1" right="skew 0"/>
+    <neighbor left="line 1" right="skew 3"/>
+    <neighbor left="line 1" right="empty"/>
+    <neighbor left="corner 0" right="t 0"/>
+    <neighbor left="corner 0" right="t 2"/>
+    <neighbor left="corner 0" right="t 3"/>
+    <neighbor left="corner 0" right="cross"/>
+    <neighbor left="corner 0" right="x"/>
+    <neighbor left="corner 0" right="v 0"/>
+    <neighbor left="corner 0" right="v 2"/>
+    <neighbor left="corner 0" right="v 3"/>
+    <neighbor left="corner 1" right="t 1"/>
+    <neighbor left="corner 1" right="line 1"/>
+    <neighbor left="corner 1" right="corner 0"/>
+    <neighbor left="corner 1" right="corner 3"/>
+    <neighbor left="corner 1" right="v 1"/>
+    <neighbor left="corner 1" right="skew 0"/>
+    <neighbor left="corner 1" right="skew 3"/>
+    <neighbor left="corner 1" right="empty"/>
+    <neighbor left="corner 2" right="t 1"/>
+    <neighbor left="corner 2" right="line 1"/>
+    <neighbor left="corner 2" right="corner 0"/>
+    <neighbor left="corner 2" right="corner 3"/>
+    <neighbor left="corner 2" right="v 1"/>
+    <neighbor left="corner 2" right="skew 0"/>
+    <neighbor left="corner 2" right="skew 3"/>
+    <neighbor left="corner 2" right="empty"/>
+    <neighbor left="corner 3" right="t 0"/>
+    <neighbor left="corner 3" right="t 2"/>
+    <neighbor left="corner 3" right="t 3"/>
+    <neighbor left="corner 3" right="cross"/>
+    <neighbor left="corner 3" right="x"/>
+    <neighbor left="corner 3" right="v 0"/>
+    <neighbor left="corner 3" right="v 2"/>
+    <neighbor left="corner 3" right="v 3"/>
+    <neighbor left="x" right="t 0"/>
+    <neighbor left="x" right="t 2"/>
+    <neighbor left="x" right="t 3"/>
+    <neighbor left="x" right="cross"/>
+    <neighbor left="x" right="line 0"/>
+    <neighbor left="x" right="corner 1"/>
+    <neighbor left="x" right="corner 2"/>
+    <neighbor left="x" right="x"/>
+    <neighbor left="x" right="v 0"/>
+    <neighbor left="x" right="v 2"/>
+    <neighbor left="x" right="v 3"/>
+    <neighbor left="x" right="skew 1"/>
+    <neighbor left="x" right="skew 2"/>
+    <neighbor left="v 0" right="t 0"/>
+    <neighbor left="v 0" right="t 2"/>
+    <neighbor left="v 0" right="t 3"/>
+    <neighbor left="v 0" right="cross"/>
+    <neighbor left="v 0" right="line 0"/>
+    <neighbor left="v 0" right="corner 1"/>
+    <neighbor left="v 0" right="corner 2"/>
+    <neighbor left="v 0" right="x"/>
+    <neighbor left="v 0" right="v 0"/>
+    <neighbor left="v 0" right="v 2"/>
+    <neighbor left="v 0" right="v 3"/>
+    <neighbor left="v 0" right="skew 1"/>
+    <neighbor left="v 0" right="skew 2"/>
+    <neighbor left="v 1" right="t 0"/>
+    <neighbor left="v 1" right="t 2"/>
+    <neighbor left="v 1" right="t 3"/>
+    <neighbor left="v 1" right="cross"/>
+    <neighbor left="v 1" right="line 0"/>
+    <neighbor left="v 1" right="corner 1"/>
+    <neighbor left="v 1" right="corner 2"/>
+    <neighbor left="v 1" right="x"/>
+    <neighbor left="v 1" right="v 0"/>
+    <neighbor left="v 1" right="v 2"/>
+    <neighbor left="v 1" right="v 3"/>
+    <neighbor left="v 1" right="skew 1"/>
+    <neighbor left="v 1" right="skew 2"/>
+    <neighbor left="v 2" right="t 0"/>
+    <neighbor left="v 2" right="t 2"/>
+    <neighbor left="v 2" right="t 3"/>
+    <neighbor left="v 2" right="cross"/>
+    <neighbor left="v 2" right="line 0"/>
+    <neighbor left="v 2" right="corner 1"/>
+    <neighbor left="v 2" right="corner 2"/>
+    <neighbor left="v 2" right="x"/>
+    <neighbor left="v 2" right="v 0"/>
+    <neighbor left="v 2" right="v 2"/>
+    <neighbor left="v 2" right="v 3"/>
+    <neighbor left="v 2" right="skew 1"/>
+    <neighbor left="v 2" right="skew 2"/>
+    <neighbor left="v 3" right="t 1"/>
+    <neighbor left="v 3" right="line 1"/>
+    <neighbor left="v 3" right="corner 0"/>
+    <neighbor left="v 3" right="corner 3"/>
+    <neighbor left="v 3" right="v 1"/>
+    <neighbor left="v 3" right="skew 0"/>
+    <neighbor left="v 3" right="skew 3"/>
+    <neighbor left="v 3" right="empty"/>
+    <neighbor left="skew 0" right="t 0"/>
+    <neighbor left="skew 0" right="t 2"/>
+    <neighbor left="skew 0" right="t 3"/>
+    <neighbor left="skew 0" right="cross"/>
+    <neighbor left="skew 0" right="x"/>
+    <neighbor left="skew 0" right="v 0"/>
+    <neighbor left="skew 0" right="v 2"/>
+    <neighbor left="skew 0" right="v 3"/>
+    <neighbor left="skew 1" right="t 1"/>
+    <neighbor left="skew 1" right="line 1"/>
+    <neighbor left="skew 1" right="corner 0"/>
+    <neighbor left="skew 1" right="corner 3"/>
+    <neighbor left="skew 1" right="v 1"/>
+    <neighbor left="skew 1" right="skew 0"/>
+    <neighbor left="skew 1" right="skew 3"/>
+    <neighbor left="skew 1" right="empty"/>
+    <neighbor left="skew 2" right="t 1"/>
+    <neighbor left="skew 2" right="line 1"/>
+    <neighbor left="skew 2" right="corner 0"/>
+    <neighbor left="skew 2" right="corner 3"/>
+    <neighbor left="skew 2" right="v 1"/>
+    <neighbor left="skew 2" right="skew 0"/>
+    <neighbor left="skew 2" right="skew 3"/>
+    <neighbor left="skew 2" right="empty"/>
+    <neighbor left="skew 3" right="t 0"/>
+    <neighbor left="skew 3" right="t 2"/>
+    <neighbor left="skew 3" right="t 3"/>
+    <neighbor left="skew 3" right="cross"/>
+    <neighbor left="skew 3" right="x"/>
+    <neighbor left="skew 3" right="v 0"/>
+    <neighbor left="skew 3" right="v 2"/>
+    <neighbor left="skew 3" right="v 3"/>
+    <neighbor left="empty" right="t 1"/>
+    <neighbor left="empty" right="line 1"/>
+    <neighbor left="empty" right="corner 0"/>
+    <neighbor left="empty" right="corner 3"/>
+    <neighbor left="empty" right="v 1"/>
+    <neighbor left="empty" right="skew 0"/>
+    <neighbor left="empty" right="skew 3"/>
+    <!--<neighbor left="empty" right="empty"/>-->
+  </neighbors>
+  <subsets>
+    <subset name="Dense4">
+      <tile name="t"/>
+      <tile name="cross"/>
+      <tile name="line"/>
+      <tile name="corner"/>
+    </subset>
+    <subset name="Dense3noCr">
+      <tile name="t"/>
+      <tile name="line"/>
+      <tile name="corner"/>
+    </subset>
+    <subset name="Dense7">
+      <tile name="t"/>
+      <tile name="cross"/>
+      <tile name="line"/>
+      <tile name="corner"/>
+      <tile name="x"/>
+      <tile name="v"/>
+      <tile name="skew"/>
+    </subset>
+    <subset name="Dense3">
+      <tile name="x"/>
+      <tile name="v"/>
+      <tile name="skew"/>
+    </subset>
+    <subset name="Full4">
+      <tile name="t"/>
+      <tile name="cross"/>
+      <tile name="line"/>
+      <tile name="corner"/>
+      <tile name="empty"/>
+    </subset>
+    <subset name="Full3">
+      <tile name="x"/>
+      <tile name="v"/>
+      <tile name="skew"/>
+      <tile name="empty"/>
+    </subset>
+    <subset name="Full7">
+      <tile name="t"/>
+      <tile name="cross"/>
+      <tile name="line"/>
+      <tile name="corner"/>
+      <tile name="x"/>
+      <tile name="v"/>
+      <tile name="skew"/>
+      <tile name="empty"/>
+    </subset>
+    <subset name="Grid">
+      <tile name="cross"/>
+      <tile name="line"/>
+      <tile name="empty"/>
+    </subset>
+    <subset name="C">
+      <tile name="corner"/>
+    </subset>
+    <subset name="Fabric">
+      <tile name="cross"/>
+      <tile name="line"/>
+    </subset>
+    <subset name="Dense Fabric">
+      <tile name="cross"/>
+    </subset>
+  </subsets>
+</set>

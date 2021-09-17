@@ -1,0 +1,3 @@
+<samples>
+  <simpletiled height="20" width="20" subset="Dense4" name="MatTiles" periodic="true" screenshots="100"/>
+</samples>
